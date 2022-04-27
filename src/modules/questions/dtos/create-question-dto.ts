@@ -1,5 +1,5 @@
 import { IsString } from 'class-validator';
 
-export class CreateMessageDto {
+export class CreateQuestionDto {
   @IsString() content: string;
 }
